@@ -14,6 +14,4 @@ async function scrapeCourse(url) {
     await browser.close();
 }
 
-// #ttresults > section.search-results.location.content > div:nth-child(46) > section > a > time > script:nth-child(1)
-
 scrapeCourse('https://www.golfnow.com/tee-times/facility/3130-heritage-isles-golf-country-club/search#sortby=Date&view=Grouping&holes=3&timeperiod=3&timemax=42&timemin=10&players=0&pricemax=10000&pricemin=0&exploretoggle=false');
